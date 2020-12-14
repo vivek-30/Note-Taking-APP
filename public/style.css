@@ -1,0 +1,120 @@
+body{
+    color:black;
+    background-color:whitesmoke;
+    border:2px solid black;
+}
+
+li{
+    width:80%;
+    margin:8px auto;
+    list-style:none;
+}
+
+nav{
+    margin-top:0px;
+    background-color:purple;
+    color:black;
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+}
+
+.items{
+    background-color:whitesmoke;
+    border-radius:8px;
+    font-size:1.1rem;
+    text-align: center;
+    font-family:verdana;
+    border:2px solid black;
+    padding:10px;
+}
+
+#search{
+    background-color:#f2f2f2;
+    padding:3rem;
+}
+
+.remove{
+    border:2px solid black;
+    padding:8.2px;
+    border-radius:8px;
+    background-color:purple;
+    position: absolute;
+    cursor: pointer;
+    right:8%;
+}
+
+.remove:hover{
+    transform: scale(1.05);
+}
+
+.btn{
+    cursor: pointer;
+    padding:4px;
+    font-size:18px;
+    width:6rem;
+    border:2px solid black;
+    border-radius:7px;
+    overflow: hidden;
+    background-color:purple;
+}
+
+.btn:hover{
+    transform:scale(1.03);
+    background-color:rgb(116, 2, 116);
+}
+
+#main{
+    position: relative;
+    background-color:#c2c2c2;
+    padding:3.4rem;
+}
+
+#search-task,#add-task{
+    width:80%;
+    padding:4px;
+    margin:6px;
+    text-align: center;
+    font-size:18px;
+    border:2px solid black;
+    border-radius:6px;
+}
+
+#add{
+    background-color: whitesmoke;
+    padding:2.1rem;
+    text-align: center;
+}
+
+#add .btn{
+    text-align: center;
+    display: block;
+    width:78.3%;
+    margin:3px auto;
+}
+
+/* responsiveness */
+
+@media(max-width:740px){
+    #search .btn{
+        width:58vw;
+        margin:4px;
+    }
+
+    #main li{
+        border:2px solid black;
+        border-radius:6px;
+        width:50vw;
+        margin:13px auto;
+    }
+
+    .remove{
+        border:2px solid black;
+        border-radius:6px;
+        right:6%;
+    }
+
+    ul{
+        padding-left:0;
+    }
+}

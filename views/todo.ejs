@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO Application</title>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <script src="/jquery-3.5.1.min.js"></script>
+    <script src="/ajax.js"></script>
+</head>
+<body>
+    <nav>Welcome To Online <em>TODO App</em></nav>
+        <section id="search">
+            <input type="text" name="search" id="search-task" placeholder="Search Task">
+            <button class="btn">search</button>
+        </section>
+
+        <section id="main">
+            <ul id="tasks">
+                <% data.forEach(task=>{ %>
+                    <div>
+                        <span class="remove">X</span>
+                        <li class="items"><%= task.item %></li>
+                    </div>
+                <% }); %>
+            </ul>
+        </section>
+
+        <section id="add">
+            <form>
+                <input type="text" name="add" id="add-task" placeholder="Add Task...">
+                <button class="btn" type="submit">Add Task</button>
+            </form>
+        </section>
+        
+</body>
+</html>
