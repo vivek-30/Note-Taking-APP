@@ -30,4 +30,6 @@ ___
 ```
 
 ---
-## Note => connect to mongodb either locally or using atlas before running `npm start`
+## Note :
+### connect to mongodb either locally or using
+### atlas before running `npm start`
