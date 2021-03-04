@@ -1,11 +1,10 @@
 ## Note Taking APP
-### This app allow users to manage their work
-### easily by storing and maintaining their work
-### smoothly and efficiently.
+
+This app allow users to manage their work easily and efficiently by storing and maintaining their task for future reference.
 
 ---
 
-## Tech Stack
+### Tech Stack -
 
 - NodeJs
 - Express
@@ -15,14 +14,14 @@
 - CSS
 - JQuery
 
-### Other Required Stuff
+### Other Required Stuff -
 - mongoose
 - ejs
 - mocha
 
 ___
 
-## Installation and Setup
+### Installation and Setup -
 
 ```Javascript
     npm install
@@ -30,6 +29,5 @@ ___
 ```
 
 ---
-## Note :
-### connect to mongodb either locally or using
-### atlas before running `npm start`
+### Note :
+connect to mongodb server either locally or using [atlas](https://www.mongodb.com/cloud/atlas) before running `npm start`
